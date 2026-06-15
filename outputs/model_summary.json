@@ -1,0 +1,128 @@
+{
+  "rows_train": 120000,
+  "rows_test": 40000,
+  "train_fraud_rate": 0.034383333333333335,
+  "validation_fraud_rate": 0.03808333333333333,
+  "features_before_imputation": 79,
+  "scale_pos_weight": 28.8879202988792,
+  "validation_pr_auc": 0.168354355411867,
+  "validation_roc_auc": 0.7884793250468092,
+  "best_threshold_by_f1": {
+    "threshold": 0.7499999999999999,
+    "precision": 0.1870967741935484,
+    "recall": 0.3490153172866521,
+    "f1": 0.24360442917143948
+  },
+  "confusion_matrix_at_best_threshold": [
+    [
+      21700,
+      1386
+    ],
+    [
+      595,
+      319
+    ]
+  ],
+  "top_25_features": [
+    {
+      "feature": "V3",
+      "gain_importance": 0.0777895525097847
+    },
+    {
+      "feature": "V7",
+      "gain_importance": 0.060830242931842804
+    },
+    {
+      "feature": "amount_x_identity_risk",
+      "gain_importance": 0.043782688677310944
+    },
+    {
+      "feature": "V12",
+      "gain_importance": 0.04229096695780754
+    },
+    {
+      "feature": "V17",
+      "gain_importance": 0.04084981605410576
+    },
+    {
+      "feature": "channel_freq",
+      "gain_importance": 0.030496155843138695
+    },
+    {
+      "feature": "identity_false_rate",
+      "gain_importance": 0.02361121214926243
+    },
+    {
+      "feature": "velocity_x_identity_risk",
+      "gain_importance": 0.022443072870373726
+    },
+    {
+      "feature": "amount_x_recipient_risk",
+      "gain_importance": 0.020797422155737877
+    },
+    {
+      "feature": "id_numeric_present_count",
+      "gain_importance": 0.01532671507447958
+    },
+    {
+      "feature": "recipient_maturity_score",
+      "gain_importance": 0.01477967668324709
+    },
+    {
+      "feature": "amount_x_velocity",
+      "gain_importance": 0.014744157902896404
+    },
+    {
+      "feature": "velocity_mean",
+      "gain_importance": 0.013857590034604073
+    },
+    {
+      "feature": "amount_vs_country_median",
+      "gain_importance": 0.013812161982059479
+    },
+    {
+      "feature": "recipient_risk",
+      "gain_importance": 0.013638528995215893
+    },
+    {
+      "feature": "m_false_count",
+      "gain_importance": 0.013271266594529152
+    },
+    {
+      "feature": "id_numeric_missing_rate",
+      "gain_importance": 0.012749657966196537
+    },
+    {
+      "feature": "agg_id_02",
+      "gain_importance": 0.012673801742494106
+    },
+    {
+      "feature": "amount_vs_channel_median",
+      "gain_importance": 0.012220831587910652
+    },
+    {
+      "feature": "agg_id_09",
+      "gain_importance": 0.012107268907129765
+    },
+    {
+      "feature": "session_count",
+      "gain_importance": 0.011911004781723022
+    },
+    {
+      "feature": "dist2",
+      "gain_importance": 0.011822900734841824
+    },
+    {
+      "feature": "V16",
+      "gain_importance": 0.01180671714246273
+    },
+    {
+      "feature": "P_emaildomain_freq",
+      "gain_importance": 0.011694235727190971
+    },
+    {
+      "feature": "m_available_count",
+      "gain_importance": 0.011493400670588017
+    }
+  ]
+}
