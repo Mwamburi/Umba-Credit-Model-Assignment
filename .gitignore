@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local data and generated artifacts
+# Keep these folders in the repository structure, but avoid committing private data,
+# trained models, and generated outputs unless explicitly required for submission.
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Large model artifacts
+*.joblib
+*.pkl
+*.pickle

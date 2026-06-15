@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    command: uvicorn src.scoring_api:app --host 0.0.0.0 --port 8000
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    command: streamlit run src/dashboard.py --server.address 0.0.0.0 --server.port 8501
